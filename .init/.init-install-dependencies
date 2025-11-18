@@ -1,0 +1,4 @@
+{
+    "command": "flutter pub get",
+    "working_directory": "/home/kavia/workspace/code-generation/journey-guide-42601-42610/travel_guide_frontend"
+}
