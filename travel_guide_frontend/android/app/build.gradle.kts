@@ -8,7 +8,8 @@ plugins {
 android {
     namespace = "com.example.travel_guide_frontend"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    // Align NDK version with AGP to avoid mismatch errors during build
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
